@@ -14,12 +14,12 @@
 <body>
     {{-- Header --}}
     <header>
-        @yield('header')
+        @include('includes.header')
     </header>
 
     {{-- Main --}}
-    <main>
-        @yield('content')
+    <main class="container">
+        @yield('main-content')
     </main>
 
     {{-- Footer --}}
